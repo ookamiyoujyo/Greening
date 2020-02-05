@@ -1,4 +1,4 @@
-::before,
+﻿::before,
 ::after {
   box-sizing: border-box;
 }
@@ -116,13 +116,33 @@ section {
     font-family: 'chogokubosogothic_5';
     src: url(font/chogokubosogothic_5.ttf);
 }
+.btn-flat-vertical-border {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.3em 4em;
+    text-decoration: none;
+    border-left: solid 4px #000000;
+    border-right: solid 4px #000000;
+    color: #000000;
+    background: #e1f3ff;
+    transition: .4s;
+}
 
+    .btn-flat-vertical-border:hover {
+        background: #0094ff;
+        color: #ffffff;
+    }
 section h1 {
     color: #f4f4f4;
     font-size: 350%;
     font-family: chogokubosogothic_5
 }
-    section:nth-child(2) {
+section h3 {
+    font-size: 200%;
+    font-family: chogokubosogothic_5
+}
+    section: nth-child(2) {
         background-image: url(image/title.png);
     }
     section:nth-child(3) {
@@ -132,7 +152,7 @@ section h1 {
         background-image: url(image/bg02.png);
     }
     section:nth-child(5) {
-        background-image: url(image/screenshot_game.png);
+        background-image: url(image/screenshot_game.gif);
     }
     section:nth-child(6) {
         background-image: url(image/screenshot_game2.png);
