@@ -96,8 +96,9 @@ body {
   background-color: #f4f4f4;
 }
 table {
-    color: #382E43;
+    color: #000000;
     font-size: 200%;
+    -webkit-text-stroke: 0.5px #ffffff;
 }
 
 section {
@@ -176,3 +177,4 @@ section:nth-child(6) {
     section:nth-child(8) {
         background-image: url(image/screenshot_world2.png);
     }
+
