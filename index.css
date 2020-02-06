@@ -91,7 +91,10 @@ body {
   width: 100%;
   background-color: #f4f4f4;
 }
-
+table {
+    color: #382E43;
+    font-size: 200%;
+}
 
 section {
     margin-left: auto;
@@ -136,11 +139,17 @@ section {
 section h1 {
     color: #f4f4f4;
     font-size: 350%;
-    font-family: chogokubosogothic_5
+    font-family: chogokubosogothic_5;
 }
 section h3 {
     font-size: 200%;
-    font-family: chogokubosogothic_5
+    font-family: chogokubosogothic_5;
+}
+
+section h5 {
+    font-size: 300%;
+    line-height: 0em;
+    font-family: chogokubosogothic_5;
 }
     section: nth-child(2) {
         background-image: url(image/title.png);
