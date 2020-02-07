@@ -150,12 +150,16 @@ section h3 {
     font-size: 200%;
     font-family: chogokubosogothic_5;
 }
-
-section h5 {
+section h2 {
+    font-family: chogokubosogothic_5;
+    font-size: 150%;
+}
+    section h5 {
     font-size: 300%;
     line-height: 0em;
     font-family: chogokubosogothic_5;
 }
+
     section: nth-child(2) {
         background-image: url(image/title.png);
     }
